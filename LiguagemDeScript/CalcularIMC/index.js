@@ -40,24 +40,24 @@ function calculadoraDeIMC() {
         else{
             if (imc < 20.7) {
                 resultado.textContent = 'Abaixo do Peso';
-                document.querySelector('#resultado').style.background = "#fff38b";
+                document.querySelector('#resultado').style.background = "#f19f3e";
                 
             }
             else if (imc >= 20.7 && imc < 26.4){
                 resultado.textContent = 'Peso Normal';
-                document.querySelector('#resultado').style.background = "#99dfbd";
+                document.querySelector('#resultado').style.background = "#51f788";
             }
             else if (imc >= 26.4 && imc < 27.8){
                 resultado.textContent = 'Marginalmente Acima do Peso';
-                document.querySelector('#resultado').style.background = "#e6f890";
+                document.querySelector('#resultado').style.background = "#f1f335";
             }
             else if (imc >= 27.8 && imc < 31.1){
                 resultado.textContent = 'Acima do Peso Ideal';
-                 document.querySelector('#resultado').style.background = "#cf8a13";
+                 document.querySelector('#resultado').style.background = "#f19f3e";
             }
             else {
                 resultado.textContent = 'Obeso';
-                document.querySelector('#resultado').style.background = "#e52b2b";
+                document.querySelector('#resultado').style.background = "#dd4d4d";
             } 
         }
         
