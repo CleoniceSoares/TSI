@@ -4,6 +4,14 @@
   font-family: serif;
 }
 
+.home{
+  background-color: #F5DEB3;
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 .meu-container{
   margin: 0 auto;
   padding: 0;
@@ -23,7 +31,7 @@ header {
 }
 
 main {
-  background-color: #E6E6FA;
+  background-color: #F5DEB3;
   border: 1px solid black;
   flex-grow: 1;
 }
