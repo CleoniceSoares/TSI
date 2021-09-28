@@ -29,7 +29,7 @@ function addItem(item) {
           <h5 class='card-title'>${item.name}</h5>
           <h5 class='card-title'>${item.autor}</h5>
           <p class='card-text text-justify'>${item.description}</p>
-          <a href='#' class='btn btn-primary'>Adicionar Livro</a>
+          <a href='#' class='btn btn-primary'>Adicionar Livro ao Público</a>
         </div>
       </div>
     </div>`;
