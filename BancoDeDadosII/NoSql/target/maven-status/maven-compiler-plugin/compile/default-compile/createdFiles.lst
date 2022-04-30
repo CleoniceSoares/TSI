@@ -1,0 +1,9 @@
+converter\PessoaConverter.class
+dao\PessoaDAO.class
+dao\MongoConnection.class
+dao\EntidadeDAO.class
+entidade\Pessoa.class
+entidade\Telefone.class
+Principal.class
+converter\TelefoneConverter.class
+dao\InterfaceDAO.class
